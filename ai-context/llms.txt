@@ -1,0 +1,46 @@
+# ALIGOO DEV STARTER KIT
+
+## CORE STACK
+- Next.js App Router
+- Sanity.io (Headless CMS)
+
+---
+
+## SANITY CORE
+- Fetching Guide:
+https://www.sanity.io/docs/app-sdk/fetching-and-handling-content
+
+- GROQ Guide:
+https://www.sanity.io/docs/groq
+
+- TypeGen:
+https://www.sanity.io/docs/apis-and-sdks/sanity-typegen
+
+---
+
+## BEST PRACTICES
+
+### Fetching Strategy
+- Use server-side fetch for main content
+- Use ISR (revalidate) for marketing pages
+- Avoid client.fetch in components
+
+### API USAGE CONTROL
+- Cache all GET queries
+- Use CDN: useCdn: true
+- Avoid repeated fetch loops
+
+---
+
+## KNOWN RISKS
+- Sanity API overuse from webhooks
+- Vercel function over-execution
+
+---
+
+## INTERNAL PATTERNS
+See:
+/patterns/fetching.md
+/patterns/caching.md
+/patterns/webhooks.md
+/patterns/sanity-type-gen.md
