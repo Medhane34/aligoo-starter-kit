@@ -1,3 +1,8 @@
+---
+title: GROQ Queries in Sanity.io
+description: A comprehensive guide to GROQ queries for Sanity.io and Next.js, including optimization techniques and best practices.s
+---
+
 # GROQ Queries in Sanity.io
 
 ## What is GROQ

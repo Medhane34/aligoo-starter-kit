@@ -1,6 +1,7 @@
-
-## 📅 Created: Apr 22, 2026
-
+---
+title: Sanity TypeGen
+description: Automatically generate TypeScript types from Sanity schema + GROQ queries to eliminate manual interface writing and schema-to-frontend mismatch.
+---
 ## 🎯 Purpose
 
 Automatically generate **TypeScript types from Sanity schema + GROQ queries** to eliminate:

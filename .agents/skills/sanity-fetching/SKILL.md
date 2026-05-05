@@ -1,8 +1,8 @@
-Perfect timing for this—this is exactly where most Sanity + Next.js setups level up from “it works” → “it scales properly.” Right now you’re using only `client.fetch()`, which is fine… but it’s just **one layer** of a much bigger system.
-
-Let’s turn this into a clean internal **documentation-style breakdown** you can reuse 👇
-
 ---
+title: Sanity Content Fetching — Complete Strategy Guide
+description: A comprehensive guide to content fetching strategies for Sanity.io and Next.js, including ISR, revalidation, and optimization techniques.
+---
+
 
 # 📚 Sanity Content Fetching — Complete Strategy Guide
 
