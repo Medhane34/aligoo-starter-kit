@@ -133,7 +133,7 @@ Maintain:
 - Border radius consistency
 - Color consistency
 - Component hierarchy consistency
-
+- 
 ---
 
 # STITCH MCP RULES
